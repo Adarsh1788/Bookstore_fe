@@ -1,0 +1,21 @@
+@import "tailwindcss";
+
+header {
+  background-image: url("https://images.unsplash.com/photo-1532012197267-da84d127e765?fm=jpg&q=60&w=3000&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8M3x8Ym9va3xlbnwwfHwwfHx8MA%3D%3D");
+  background-position: 50%;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 500px;
+  width: 100%;
+}
+
+.circle-img{
+  border-radius: 50%;
+  height: 160px;
+  width: 160px;
+
+}
+#login-img{
+  background-image: url("https://images.unsplash.com/photo-1610072175216-df383b91b89d?fm=jpg&q=60&w=3000&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D");
+}
