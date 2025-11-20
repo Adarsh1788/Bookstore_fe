@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 
 const Home = () => {
   return (
@@ -17,6 +18,8 @@ const Home = () => {
           <a href="" className="mx-5 mt-4">
             Contact
           </a>
+
+          <Link to={"/register"}>Login</Link>
         </ul>
       </div>
       <header className=" flex justify-center items-center">
@@ -135,8 +138,13 @@ const Home = () => {
               laboriosam culpa ratione atque tenetur possimus rem id animi
               accusamus, aperiam, quod voluptatibus dolore reprehenderit dolorem
               nihil. Repellat provident suscipit animi?
-            </p > 
-            <p className="text-justify mt-5">Lorem ipsum dolor sit amet consectetur adipisicing elit. Reiciendis ipsa necessitatibus commodi quisquam blanditiis voluptatem eveniet modi excepturi officiis exercitationem, magnam, consequatur nemo neque nesciunt expedita, iste porro odio placeat?</p>
+            </p>
+            <p className="text-justify mt-5">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit.
+              Reiciendis ipsa necessitatibus commodi quisquam blanditiis
+              voluptatem eveniet modi excepturi officiis exercitationem, magnam,
+              consequatur nemo neque nesciunt expedita, iste porro odio placeat?
+            </p>
           </div>
           <div className="me-40 mt-10">
             <img
@@ -149,17 +157,25 @@ const Home = () => {
       </section>
       <section>
         <div className="text-center">
-
           <h1 className="mt-10">TESTIMONIALS</h1>
           <h3 className="text-2xl mt-2">See What Others Are Saying</h3>
           <div className="text-center ms-135">
- <img src="https://images.pexels.com/photos/2381069/pexels-photo-2381069.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500" alt="" className="mt-5 circle-img"/>
+            <img
+              src="https://images.pexels.com/photos/2381069/pexels-photo-2381069.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500"
+              alt=""
+              className="mt-5 circle-img"
+            />
           </div>
           <h1 className="text-center mt-5">Tressa Joseph</h1>
-          <p className="text-justify mx-40 mt-5">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Modi eius, reiciendis nam, debitis amet iste error harum cum voluptas fugit voluptates veniam quos aliquid! Eaque quam itaque quidem perferendis consequatur.
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Natus placeat facere suscipit dolore, expedita numquam commodi aliquid sed, accusantium neque eaque beatae maxime quis in! Nesciunt impedit cumque dolorem optio?
+          <p className="text-justify mx-40 mt-5">
+            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Modi eius,
+            reiciendis nam, debitis amet iste error harum cum voluptas fugit
+            voluptates veniam quos aliquid! Eaque quam itaque quidem perferendis
+            consequatur. Lorem ipsum dolor sit amet consectetur adipisicing
+            elit. Natus placeat facere suscipit dolore, expedita numquam commodi
+            aliquid sed, accusantium neque eaque beatae maxime quis in! Nesciunt
+            impedit cumque dolorem optio?
           </p>
-         
         </div>
       </section>
     </>
